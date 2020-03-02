@@ -38,11 +38,11 @@ export interface TreeSelectProps<T>
 class TreeSelect<T> extends React.Component<TreeSelectProps<T>, {}> {
   static TreeNode = TreeNode;
 
-  static SHOW_ALL = SHOW_ALL;
+  static readonly SHOW_ALL = SHOW_ALL;
 
-  static SHOW_PARENT = SHOW_PARENT;
+  static readonly SHOW_PARENT = SHOW_PARENT;
 
-  static SHOW_CHILD = SHOW_CHILD;
+  static readonly SHOW_CHILD = SHOW_CHILD;
 
   static defaultProps = {
     transitionName: 'slide-up',
